@@ -1,0 +1,7 @@
+Linear Regression
+stdMAPE:	  10.69
+stdMSE:		2235.67
+
+Powell 2D
+stdMAPE:	   5.01
+stdMSE:		1060.35
