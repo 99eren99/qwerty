@@ -121,7 +121,7 @@ if __name__ == '__main__':
     p1 = Process(target=process, args=(method_1,"Linear_Regression",df,q,))
     p2=Process(target=process, args=(method_4,"Curve_Fit_2D",df,q,))
     p3=Process(target=process, args=(method_3,"Curve_Fit_3D",df,q,)) 
-    p4=Process(target=process, args=(method_3,"Powell_2D",df,q,))
+    p4=Process(target=process, args=(method_2,"Powell_2D",df,q,))
     p1.start()
     p2.start()
     p3.start()
